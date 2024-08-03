@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', serif;
+}
+
+body {
+    background: linear-gradient(102.2deg, rgb(250, 45, 66) 9.6%, rgb(245, 104, 104) 96.1%);
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.saka-intro-picture {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.saka-intro-picture:hover {
+    filter: contrast(80%);
+    transform: scale(1.05);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.container a {
+    color: #F6595E;
+    transition: all 0.3s ease-in-out;
+}
+
+.container a:hover {
+    color: #7B0A0A;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    background: #F6595E;
+    font-size: 24px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(250, 45, 66) 9.6%;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #4d0f15;
+    transition: all 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #140202;
+}
+
+.theme-button {
+    margin-top: 20px;
+    font-size: 12px;
+    border: 2px solid #fff;
+    background: #000;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+.theme-button:hover {
+    color: #000;
+    background: #fff;
+}
+
+.dark {
+    background: linear-gradient(115deg, rgb(0, 0, 0) 5.8%, rgb(178, 14, 14) 112.6%);
+    color: #fff;
+}
+
+.dark .container {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dark .button-container {
+    background: rgb(178, 14, 14) 112.6%;
+    border: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.dark .button-container:hover {
+    background: #7B0A0A;
+}
+
+.dark a {
+    color: rgb(178, 14, 14) 112.6%;
+    transition: all 0.3s ease-in-out;
+}
+
+.dark a:hover {
+    color: #140202;
+}
+
+.dark footer a {
+    color: #140202;
+    transition: all 0.3s ease-in-out;
+}
